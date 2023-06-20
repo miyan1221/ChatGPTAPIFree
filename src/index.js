@@ -11,7 +11,7 @@ const upstreamUrl = 'https://api.openai.com/v1/chat/completions';
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET, HEAD, POST, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+  'Access-Control-Allow-Headers': 'Content-Type, Authorization,sign',
 };
 
 const randomChoice = (arr) => arr[Math.floor(Math.random() * arr.length)];
